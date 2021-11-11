@@ -1,0 +1,47 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-indent {
+	background-color: white;
+	color: #333333;
+	min-height: 100px;
+	border: 1px solid lightgray;
+	margin: 28px 0;
+
+	display: flex;
+
+	.indent-icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+		background-color: #919191;
+		margin: 20px 0 0 20px;
+
+		svg {
+			width: 30px;
+			height: 30px;
+			position: relative;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			fill: #ffffff;
+		}
+	}
+
+	.indent-content {
+		margin: 20px 20px 0 20px;
+		width: calc(100% - 120px);
+
+		h1:first-child,
+		h2:first-child,
+		h3:first-child,
+		h4:first-child,
+		p:first-child {
+			margin-top: 0;
+		}
+	}
+}

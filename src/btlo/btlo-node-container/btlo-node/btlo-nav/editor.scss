@@ -1,0 +1,26 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-btlo-nav {
+
+	& > div > div {
+		display: flex;
+
+		& > div {
+			margin: 0;
+		}
+	}
+
+	background-color: lightgray;
+
+	.is-selected {
+		border: 1px dotted #000000;
+	}
+
+	.block-list-appender.wp-block button {
+		margin-top: 10px;
+	}
+}

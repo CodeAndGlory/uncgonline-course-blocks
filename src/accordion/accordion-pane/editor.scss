@@ -1,0 +1,51 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-accordion-pane {
+  margin-top: 0;
+  margin-bottom: 0;
+
+  .accordion-header {
+	margin: 0;
+	font-size: inherit;
+	position: relative;
+
+	span {
+	  position: absolute;
+	  padding-top: 1rem;
+	  padding-bottom: 1rem;
+	  top: 0;
+	  left: 1.25rem;
+	  right: 3.25rem;
+	  z-index: 1;
+	}
+  }
+
+  .accordion-button {
+	z-index: 0;
+
+	&:hover, &:focus {
+	  z-index: auto;
+	}
+  }
+
+  &:nth-last-of-type(2) {
+	.accordion-button {
+	  // Only set a border-radius on the last item if the accordion is collapsed
+	  &.collapsed {
+		border-bottom-width: 1px;
+		border-bottom-right-radius: .25rem;
+		border-bottom-left-radius: .25rem;
+	  }
+	}
+
+	.accordion-collapse {
+	  border-bottom-width: 1px;
+	  border-bottom-right-radius: .25rem;
+	  border-bottom-left-radius: .25rem;
+	}
+  }
+}

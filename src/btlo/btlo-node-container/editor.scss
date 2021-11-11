@@ -1,0 +1,38 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-btlo-node-container {
+
+	padding: 0;
+	display: block;
+
+	.btlo-node {
+		//margin: 0 20px 20px 20px;
+		overflow: hidden;
+		padding: 0 20px 20px 20px;
+
+		& > div > div > div:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+
+	.edit-node-header {
+		display: flex;
+		justify-content: space-between;
+		margin: 6px 20px;
+
+		.node-index-label {
+			color: gray;
+			margin-top: 4px;
+		}
+	}
+
+
+	.is-selected {
+		border: 1px dotted #000000;
+	}
+}

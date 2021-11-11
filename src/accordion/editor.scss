@@ -1,0 +1,14 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-accordion {
+  padding: 20px 20px 10px 20px;
+  border: rgba(0, 0, 0, 0.125) 1px solid;
+
+  .components-button {
+	margin-top: 10px;
+  }
+}

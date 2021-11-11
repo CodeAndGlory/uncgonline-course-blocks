@@ -1,0 +1,50 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.type-select-controls .components-toolbar-button.has-icon svg {
+	width: 20px;
+	height: 20px;
+}
+
+.wp-block-uncgonline-block-indent {
+	margin-top: 28px;
+	margin-bottom: 28px;
+
+	.block-editor-inner-blocks > div {
+		h1:first-child,
+		h2:first-child,
+		h3:first-child,
+		h4:first-child,
+		p:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.is-selected {
+		border: 1px dotted #000000;
+	}
+}
+
+.indent-icon-options {
+  button {
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+
+	svg {
+	  height: 50%;
+	}
+
+	&.selected {
+	  box-shadow: 0 0 0 0.25rem rgb(211 212 213 / 50%);
+	}
+  }
+}
+
+.indent-box-settings-label {
+  font-size: 13px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,23 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-checkpoint-question {
+  padding: 0 20px 10px 20px;
+  border: rgba(0, 0, 0, 0.125) 1px solid;
+
+  h4.question-iter {
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+
+  .question-text {
+	margin-bottom: 20px;
+  }
+
+  .add-choice {
+	margin-bottom: 5px;
+  }
+}

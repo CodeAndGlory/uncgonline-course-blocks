@@ -1,0 +1,29 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-uncgonline-block-btlo {
+
+	border: 1px solid lightgray;
+	margin: 20px 0;
+	padding: 20px;
+
+	.components-button.has-icon .dashicon {
+		margin: 0 2px;
+	}
+
+	.add-block-button span {
+		margin: 0 6px 0 0;
+	}
+
+	& > div > .block-editor-inner-blocks > div > p {
+		margin: 20px;
+	}
+
+	& > .block-list-appender {
+		display: none;
+	}
+}
